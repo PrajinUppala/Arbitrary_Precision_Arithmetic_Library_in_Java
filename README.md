@@ -1,7 +1,4 @@
->>>>>>> HEAD
-# First_Java_Project
-Modifying java library to support large int and float arithmetic operations
-=======
+# Modifying java library to support large int and float arithmetic operations
 # ArbitraryArithmetic
 
 ## Overview
@@ -35,29 +32,33 @@ ArbitraryArithmetic is a Java library and command-line tool designed to handle a
 This script compiles source files, and optionally runs the program if arguments are passed.
 
 #### Run with Arguments
-
+```
 bash
 python3 run.py int mul 123456789 987654321
-
+```
 
 ---
 
 ### Option 2: Using Docker
 #### Build docker
+```
 sudo docker build -t javaproject .
+```
 #### Run Program
-
+```
 sudo docker run --rm java-inf-arith float div 244727.15202 75964.3891
-
+```
 
 ---
 
 ## Example CLI Usage
 
 ### compiling the files with ant
+```
 ant compile
+```
 ### removing precompiled files
+```
 ant clean
-
+```
 ---
->>>>>>> origin/master
